@@ -1,2 +1,7 @@
 # RL-GibbsBO
 学术垃圾
+As you can see, my work primarily involves assembling various algorithms at a basic level, and the experiments have not yet been successful. It is evident that the computational complexity is high, as reinforcement learning (RL) itself requires extensive sampling. Therefore, it is uncertain whether it will work. However, intuitively, using RL for sampling in high-dimensional spaces seems natural and potentially effective.
+
+I have long wondered why no one has used RL to treat sampling as the primary task to achieve this objective. Some senior colleagues have discouraged this idea, but I firmly believe that sampling is crucial. In a sense, good sampling can effectively learn the data distribution. Various machine learning models are essentially sampling strategies that reconstruct data, followed by interpolation for prediction. From this perspective, using RL for sampling, though it may seem like overkill, is not without value.
+
+My next steps involve successfully running the experiments and analyzing the results. If it works, I will seek to provide theoretical proof, such as convergence guarantees. If it does not work, I will delve deeper into various sampling methods to understand why using RL for sampling is not feasible and what the underlying reasons are.
