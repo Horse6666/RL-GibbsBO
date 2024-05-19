@@ -1,0 +1,9 @@
+numpy
+scipy
+scikit-learn
+matplotlib
+pyyaml
+gym
+mujoco-py
+tensorflow
+torch

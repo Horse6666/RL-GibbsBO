@@ -1,0 +1,26 @@
+experiment_1:
+  functions:
+    - name: ackley
+      dimensions: [200, 400, 800]
+    - name: rastrigin
+      dimensions: [200, 400, 800]
+  initial_points: 200
+  batch_size: 100
+  num_iterations: 100
+
+experiment_2:
+  tasks:
+    - name: hopper
+      state_space_dim: 33
+    - name: half_cheetah
+      state_space_dim: 102
+  initial_points: 200
+  batch_size: 50
+  num_iterations: 100
+
+experiment_3:
+  functions:
+    - name: synthetic_1d
+    - name: synthetic_2d
+  initial_points: 100
+  num_iterations: 50
